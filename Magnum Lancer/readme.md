@@ -1,5 +1,8 @@
-Magnum Lancer from CSO
+# Magnum Lancer
 
-Source Code must be compiled LOCALY !
+> This gun from CSO
+> I found it on some forums, but its not compabilite with Zombie Plague (4.3/5.0.x)
+> Here is my repair version for ZP 4.3/5.0.x
 
-This is Free to Use, but you cant remove original author or me.
+
+###### Enjoy it !

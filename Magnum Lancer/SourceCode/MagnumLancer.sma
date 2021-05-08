@@ -3,15 +3,15 @@
        Main Setting Here
     ============================
 */
-            #define ITEM_NAME       "Magnum Lancer"
-            #define ITEM_COST       30
-            #define ITEM_TEAM       ZP_TEAM_HUMAN
+    #define ITEM_NAME       "Magnum Lancer"
+    #define ITEM_COST       30
+    #define ITEM_TEAM       ZP_TEAM_HUMAN
 
-            /* Neccesery for Work this Plugin */
-            #define REPAIR_BY_ZEKY
+    /* Neccesery for Work this Plugin */
+    #define REPAIR_BY_ZEKY
 
-            /* If you want use it for Zombie Plague Mod */
-            //#define ZOMBIE_PLAGUE
+    /* If you want use it for Zombie Plague Mod */
+    //#define ZOMBIE_PLAGUE
 /*
     ============================
        Main Setting End
@@ -391,10 +391,6 @@ public fw_Item_Deploy_Post(iItem)
     static iPlayer; iPlayer = get_pdata_cbase(iItem, 41, 4)
     /*static SecondaryAmmo;*/ 
     SecondaryAmmo = get_pdata_int(iItem, 30, 4)
- 
-    //I need to disable because there is no dummy anim
-    //static Sex; Sex = 0 //Get your sex: 0 - Male; 1 - Female
-    //set_pev(iItem, pev_body, Sex)
    
     set_pev(iPlayer, pev_viewmodel2, v_model)
    
